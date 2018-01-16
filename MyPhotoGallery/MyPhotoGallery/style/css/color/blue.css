@@ -1,0 +1,174 @@
+::selection {
+    background: #dae3e8; /* Safari */
+    color: #2f2f2f;
+}
+::-moz-selection {
+    background: #dae3e8; /* Firefox */
+    color: #2f2f2f;
+}
+.cbp:after,
+.cbp-lazyload:after,
+.cbp-popup-loadingBox:after,
+.cbp-popup-singlePageInline:after {
+    border-top: 3px solid #73b2cf;
+}
+.lg-outer .lg-item:after,
+.fotorama__wrap--css3 .fotorama__spinner {
+    border-top: 3px solid #73b2cf;
+}
+a {
+    color: #73b2cf;
+}
+a.line:hover {
+    border-bottom: 1px solid #73b2cf;
+}
+a:hover,
+a:focus {
+    color: #73b2cf;
+}
+.nocolor:hover,
+.email-link:hover,
+footer a:hover {
+    color: #73b2cf !important
+}
+.post-title a:hover {
+    color: #73b2cf
+}
+ul.circled li:before {
+    color: #73b2cf;
+}
+blockquote {
+    border-left: 3px solid #73b2cf;
+}
+.box:hover {
+    border: 1px solid #73b2cf;
+}
+.box a:hover {
+	color: #73b2cf;
+}
+.navbar .dropdown-menu li a:hover,
+.navbar .dropdown-menu li a.active {
+    color: #73b2cf !important
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    border-color: #73b2cf;
+    color: #73b2cf !important;
+}
+.fotorama__nav__frame.fotorama__nav__frame--thumb.fotorama__active:before {
+    border: 2px solid #73b2cf;
+}
+.cbp-item .post-title a:hover,
+.cbp-item a.more:hover,
+.cbp-item .meta a:hover {
+    color: #73b2cf !important
+}
+.cbp-filter-item span:hover {
+    color: #73b2cf !important;
+}
+.cbp-filter-item.cbp-filter-item-active span {
+    box-shadow: 0 2px 0 #73b2cf
+}
+.cbp-popup-btn,
+.btn-submit {
+    background: #73b2cf !important
+}
+.cbp-popup-btn.btn:hover,
+.btn.btn-submit:hover,
+.btn.btn-submit:focus,
+.btn.btn-submit:active,
+.btn.btn-submit.active {
+    background: #6aa4bf !important;
+}
+.meta a:hover {
+    color: #73b2cf;
+}
+.pagination ul > li.active > a {
+    border-color: #73b2cf !important;
+    color: #73b2cf !important;
+}
+.sidebox a:hover {
+    color: #73b2cf
+}
+.widget .post-list li a:hover {
+    color: #73b2cf
+}
+#comments .info h5 a:hover {
+    color: #73b2cf
+}
+.tooltip-inner {
+    background-color: #73b2cf;
+}
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: #73b2cf
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #73b2cf
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #73b2cf
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #73b2cf
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: 1px solid #73b2cf;
+    color: #73b2cf;
+}
+.panel-group .panel-active a,
+.panel-group .panel-title > a:hover,
+.panel-group .panel-title > a:focus {
+    color: #73b2cf !important;
+    border: 1px solid #73b2cf;
+}
+.progress.plain .bar {
+    background: #73b2cf !important
+}
+.bar-container {
+    border: 1px solid #73b2cf !important;
+}
+.social li a:hover {
+    color: #73b2cf !important;
+}
+.vanilla-form input[type="radio"]:focus + span,
+.vanilla-form input[type="checkbox"]:focus + span,
+.vanilla-form input[type="radio"]:active + span,
+.vanilla-form input[type="checkbox"]:active + span {
+    border-color: #73b2cf
+}
+.vanilla-form input[type="radio"] + span::after {
+    background-color: #73b2cf;
+    border-color: #73b2cf;
+}
+.vanilla-form input[type="radio"]:checked + span,
+.vanilla-form input[type="checkbox"]:checked + span {
+    border: 1px solid #73b2cf
+}
+.vanilla-form input[type="checkbox"] + span::after {
+    border: 0 solid #73b2cf;
+}
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item.active:hover {
+    border-color: #73b2cf
+}
+@media (min-width: 1200px) {
+    .navbar .navbar-nav > li > .dropdown-menu {
+        border-bottom: 2px solid #73b2cf;
+    }
+    .navbar .dropdown-menu li a:hover,
+    .navbar .dropdown-menu li a.active {
+        color: #73b2cf !important;
+    }
+    .navbar .nav > li:not(.current) > a:hover {
+        color: #73b2cf !important;
+    }
+}

@@ -1,0 +1,59 @@
+﻿@model List<MyPhotoGallery.Models.ImageModel>
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="row">
+    <main role="main">
+        <h2>Images</h2>
+        <div>
+            @Html.ActionLink("Create", "Create", "Home")
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>CreatedDate</th>
+                        <th>Image</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        var index = 1;
+                        foreach (var ringtone in Model)
+                        {
+                            <tr>
+                                <td>@index</td>
+                                <td>@ringtone.Title</td>
+                                <td>@ringtone.Description</td>
+                                <td>@ringtone.CreatedDate</td>
+                                <td>
+                                    <a href="@ringtone.ImageUrl" target="_blank">
+                                        @ringtone.ImageUrl
+                                    </a>
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "home", new { @id = ringtone.Id }, null)
+                                </td>
+                            </tr>
+                            index++;
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7">
+                                No data
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>
